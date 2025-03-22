@@ -1,0 +1,13 @@
+#basic options for env
+# all relative address are relative to the whole workspace
+# basic refs
+_base_:
+  - configs\frame_test\basic_sub.yaml
+
+# logs
+log_enable: true
+log_dir: ./logs
+log_proj_mode: 1 #used for add postfix of log folder
+log_folder_postfix_arr:
+  - train
+  - test

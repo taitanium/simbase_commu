@@ -1,0 +1,7 @@
+
+sublogs:
+  - name: sublog1
+    type: file
+    filename: sublog1.log
+    level: debug
+    formatter: text

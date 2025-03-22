@@ -1,9 +1,0 @@
-#basic options for env
-
-# logs
-log_enable: true
-log_dir: E:\BITer\jorn\stage3\simBase_commu\logs
-log_proj_mode: 1 #used for add postfix of log folder
-log_folder_postfix_arr:
-  - train
-  - test
